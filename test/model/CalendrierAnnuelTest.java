@@ -10,7 +10,8 @@ class CalendrierAnnuelTest {
 	
 	@BeforeAll
 	static void setUpBeforeClass() {
-		calendrier = new CalendrierAnnuel();
+		//enlever les intS
+		calendrier = new CalendrierAnnuel(0, 0);
 	}
 
 	@Test
