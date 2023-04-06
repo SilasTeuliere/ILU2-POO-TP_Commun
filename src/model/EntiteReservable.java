@@ -8,18 +8,30 @@ public class EntiteReservable {
 		this.noId = noId;
 		this.calendrier = calendrier;
 	}
+	
 	public int getNoId() {
 		return noId;
 	}
+	
 	public void setNoId(int noId) {
 		this.noId = noId;
 	}
+	
 	public CalendrierAnnuel getCalendrier() {
 		return calendrier;
 	}
-	public void setCalendrier(CalendrierAnnuel calendrier) {
-		this.calendrier = calendrier;
+	
+	public boolean estLibre(Formulaire form) {
+		return false;
 	}
 	
+	public boolean compatible(Formulaire form) {
+		return false;
+	}
+	
+	public Reservation reserver(Formulaire form){
+		Reservation reserv = null;
+		return reserv;
+	}
 	
 }
