@@ -1,10 +1,11 @@
 package model;
 
-public class ReservationHotel extends Reservation { 
+public class FormulaireHotel extends Formulaire{
 	private int nbLit1;
 	private int nbLit2;
 	private int noChambre;
-	public ReservationHotel(int jour, int mois, int nbLit1, int nbLit2, int noChambre) {
+	
+	public FormulaireHotel(int jour, int mois, int nbLit1, int nbLit2, int noChambre) {
 		super(jour, mois);
 		this.nbLit1 = nbLit1;
 		this.nbLit2 = nbLit2;

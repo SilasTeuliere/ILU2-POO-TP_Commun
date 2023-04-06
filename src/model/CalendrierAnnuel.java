@@ -18,6 +18,14 @@ public class CalendrierAnnuel {
 		
 		return true;
 	}
+
+	public int getJour() {
+		return jour;
+	}
+
+	public int getMois() {
+		return mois;
+	}
 	
 	/*private enum Mois{
 		

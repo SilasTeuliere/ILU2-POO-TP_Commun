@@ -1,9 +1,9 @@
 package model;
 
-public abstract class Reservation {
+public abstract class Formulaire {
 	private int jour;
 	private int mois;
-	protected Reservation(int jour, int mois) {
+	protected Formulaire(int jour, int mois) {
 		super();
 		this.jour = jour;
 		this.mois = mois;
@@ -14,5 +14,4 @@ public abstract class Reservation {
 	public int getMois() {
 		return mois;
 	}
-	
 }
